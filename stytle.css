@@ -3,6 +3,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     background-color: rgb(131, 140, 148);
 }
@@ -13,11 +14,12 @@ body{
     max-width: 500px;
     overflow: hidden;
 }
+
 #display{
     width: 100%;
     padding: 20px;
     font-size: 5rem;
-    text-align: left
+    text-align: left;
     border: none;
     background-color: black;
     color:white;
